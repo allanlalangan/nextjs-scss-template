@@ -1,0 +1,31 @@
+$brand-prim: (
+  'main': hsl(240, 75%, 60%),
+  'light': hsl(240, 75%, 85%),
+  'dark': hsl(240, 75%, 35%),
+);
+$brand-sec: (
+  'main': hsl(215, 85%, 50%),
+  'light': hsl(215, 85%, 75%),
+  'dark': hsl(215, 85%, 25%),
+);
+$brand-ter: (
+  'main': hsl(345, 75%, 60%),
+  'light': hsl(345, 75%, 85%),
+  'dark': hsl(345, 75%, 35%),
+);
+
+$grey: (
+  'cool': hsl(205, 15%, 90%),
+  'main': hsl(230, 15%, 90%),
+  'dark': hsl(230, 15%, 65%),
+  'warm': hsl(255, 15%, 90%),
+);
+
+$bg: (
+  'main': hsl(200, 25%, 95%),
+  'dark': hsl(215, 25%, 15%),
+);
+
+$success: hsl(140, 65%, 65%);
+$error: hsl(0, 75%, 60%);
+$info: hsl(200, 65%, 65%);

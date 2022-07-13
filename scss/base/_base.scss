@@ -1,0 +1,18 @@
+@use '../abstracts/colors' as colors;
+@use '../abstracts/variables' as var;
+@use '../util/' as util;
+
+body {
+  background-color: map-get(colors.$bg, 'main');
+  color: map-get(colors.$brand-sec, 'main');
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

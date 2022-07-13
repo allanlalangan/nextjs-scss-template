@@ -1,0 +1,27 @@
+@use '../util/breakpoints' as breakpoints;
+@use '../abstracts/colors' as colors;
+@use '../abstracts/variables' as var;
+
+@mixin breakpoint($size) {
+  @media (min-width: map-get(breakpoints.$breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin flex($direction, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin action-button-text() {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@mixin shadow($offsetX, $offsetY, $blur, $spread, $alpha) {
+  box-shadow: $offsetX $offsetY $blur $spread rgba(0, 0, 0, $alpha);
+}
